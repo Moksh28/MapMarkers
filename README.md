@@ -61,7 +61,7 @@ Edit `appsettings.json`:
     "DefaultConnection": "Server=YOUR_SERVER;Database=MapMarkersDB;User Id=sa;Password=YourPass;TrustServerCertificate=True;"
   },
   "GoogleMaps": {
-    "ApiKey": "YOUR_GOOGLE_MAPS_API_KEY"
+    "ApiKey": "YOUR_GOOGLE_MAPS_API_KEY" // for testing i have added my creds so, no need to change it.
   }
 }
 ```
@@ -71,13 +71,8 @@ For Windows Authentication use:
 "Server=.;Database=MapMarkersDB;Integrated Security=True;TrustServerCertificate=True;"
 ```
 
-### 3. Google Maps API Key
 
-1. Go to https://console.cloud.google.com
-2. Enable **Maps JavaScript API**
-3. Create an API key and paste it into `appsettings.json`
-
-### 4. Run the App
+### 3. Run the App
 
 ```bash
 dotnet restore
